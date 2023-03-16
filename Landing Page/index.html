@@ -26,7 +26,7 @@
         <a href="#"><img src="images/logo.svg" alt="manage" /></a>
         <!-- NAVIGATION BAR -->
         <nav class="primary-navigation">
-          <ul role="list" class="nav-list">
+          <ul role="list" class="nav-list" aria-label="Navigation">
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">About Us</a></li>
@@ -42,8 +42,8 @@
 
     <!-- MAIN -->
     <main>
-      <section>
-        <div class="contianer">
+      <section class="padding-block-900">
+        <div class="container">
           <div class="even-columns">
             <div>
               <h1 class="fs-primary-heading fw-bold">
@@ -61,8 +61,8 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="contianer">
+      <section class="padding-block-900">
+        <div class="container">
           <div class="even-columns">
             <div>
               <h2 class="fs-secondary-heading fw-bold">
@@ -109,8 +109,71 @@
           </div>
         </div>
       </section>
+      <!-- CAROUSEL -->
+      <section class="carousel">
+        <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
+        <!-- SLIDER HERE -->
+        <button class="button">Get Started</button>
+      </section>
+      <!-- /CAROUSEL -->
+
+      <!-- CTO -->
+      <section class="cta bg-accent-400 text-neutral-100">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <p class="fs-secondary-heading fw-bold">
+                Simplify how teams works today.
+              </p>
+            </div>
+            <div>
+              <button class="button" data-type="inverted">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //CTO -->
     </main>
     <!-- //MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="bg-neutral-900 text-neutral-100">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <a href="#"><img src="images/logo.svg" alt="manage" /></a>
+            <ul role="list">
+              <li><a aria-label="facebook" href="#"></a></li>
+              <li><a aria-label="youtube" href="#"></a></li>
+              <li><a aria-label="twitter" href="#"></a></li>
+              <li><a aria-label="pinterest" href="#"></a></li>
+              <li><a aria-label="instagram" href="#"></a></li>
+            </ul>
+          </div>
+          <div>
+            <nav>
+              <ul role="list" aria-label="Footer">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <form>
+              <input type="email" />
+              <button class="button" type="submit">Go</button>
+              <p>Copyright 2023. All Rights Reserved</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- //FOOTER -->
 
     <!-- JAVASCRIPT -->
     <script type="module" src="/main.js"></script>
