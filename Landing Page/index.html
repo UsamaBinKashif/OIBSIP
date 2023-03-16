@@ -23,11 +23,34 @@
     <!-- HEADER -->
     <header class="primary-header">
       <div class="container">
+        <div class="nav-wrapper">
+
+        
         <a href="#"><img src="images/logo.svg" alt="manage" /></a>
         <!-- NAVIGATION BAR -->
-        <nav class="primary-navigation">
-          <ul role="list" class="nav-list" aria-label="Navigation">
-            <li><a href="#">Pricing</a></li>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <img
+            src="images/icon-hamburger.svg"
+            alt="icon-hamburger"
+            class="icon-hamburger"
+            aria-hidden="true"
+          />
+          <img
+            src="images/icon-close.svg"
+            alt="icon-close"
+            class="icon-close"
+            aria-hidden="true"
+          />
+          <span class="visiually-hidden"></span>
+        </button>
+        <nav class="primary-navigation"  id="primary-navigation">
+          <ul
+            role="list"
+            class="nav-list"
+            aria-label="Navigation"
+           
+          >
+            <li><a href="#" >Pricing</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Careers</a></li>
@@ -35,7 +58,8 @@
           </ul>
         </nav>
         <!-- //NAVIGATION BAR -->
-        <button class="button">Get Started</button>
+        <button class="button" style="display: none;">Get Started</button>
+      </div>
       </div>
     </header>
     <!-- //HEADER -->
@@ -110,7 +134,7 @@
         </div>
       </section>
       <!-- CAROUSEL -->
-      <section class="carousel">
+      <section class="carousel padding-block-700">
         <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
         <!-- SLIDER HERE -->
         <button class="button">Get Started</button>
@@ -118,7 +142,7 @@
       <!-- /CAROUSEL -->
 
       <!-- CTO -->
-      <section class="cta bg-accent-400 text-neutral-100">
+      <section class="cta bg-accent-400 text-neutral-100 padding-block-700">
         <div class="container">
           <div class="even-columns">
             <div>
@@ -137,7 +161,7 @@
     <!-- //MAIN -->
 
     <!-- FOOTER -->
-    <footer class="bg-neutral-900 text-neutral-100">
+    <footer class="bg-neutral-900 text-neutral-100 padding-block-700">
       <div class="container">
         <div class="even-columns">
           <div>
